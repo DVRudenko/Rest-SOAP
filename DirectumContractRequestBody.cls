@@ -1,0 +1,43 @@
+public with sharing class DirectumContractRequestBody {
+
+    @AuraEnabled public String DocumentKind {public set;}
+    @AuraEnabled public String BusinessUnit {public set;}
+    @AuraEnabled public String Subject {public set;}
+    @AuraEnabled public String Note {public set;}
+    @AuraEnabled public String OurSignatory {public set;}
+    @AuraEnabled public String DocumentGroup {public set;}
+    @AuraEnabled public Double TotalAmount {public set;}
+    @AuraEnabled public String pCurrency {public set;}
+    @AuraEnabled public String ValidFrom {public set;}
+    @AuraEnabled public String ValidTill {public set;}
+    @AuraEnabled public String ResponsibleEmployee {public set;}
+    @AuraEnabled public Boolean IsStandard {public set;}
+    @AuraEnabled public Integer CardCountBK {public set;}
+    @AuraEnabled public Integer CardCountTK {public set;}
+    @AuraEnabled public String CodeWord {public set;}
+    @AuraEnabled public String CreditConditions {public set;}
+    @AuraEnabled public Integer PaymentTimeLimit {public set;}
+    @AuraEnabled public Integer CountOfVehicle {public set;}
+    @AuraEnabled public Integer ForecastLiters {public set;}
+    @AuraEnabled public String Login {public set;}
+    @AuraEnabled public String ManagerKO {public set;}
+    @AuraEnabled public String Rate {public set;}
+    @AuraEnabled public String Promotion {public set;}
+    @AuraEnabled public Double Credit {public set;}
+    @AuraEnabled public String PhoneNumber {public set;}
+    @AuraEnabled public String Email {public set;}
+    @AuraEnabled public String RequestID {get; public set;}
+    @AuraEnabled public String MarketingInfo {public set;}
+    @AuraEnabled public String TypeSearchChannel {public set;}
+    @AuraEnabled public Double Summ {public set;}
+    @AuraEnabled public String LKGK {public set;}
+    @AuraEnabled public String Services {public set;}
+    @AuraEnabled public String Contact {public set;}
+    @AuraEnabled public String CounterpartySignatory {public set;}
+    @AuraEnabled public String Bank {public set;}
+    @AuraEnabled public String CounterpartyBank {public set;}
+    @AuraEnabled public String Counterparty {public set;}
+    @AuraEnabled public Boolean IsSPARKDataChanged {public set;}
+    @AuraEnabled public Boolean IsContractAttachments {public set;}
+    @AuraEnabled public List<String> ChangedSPARKDataFields {public set;}
+}
